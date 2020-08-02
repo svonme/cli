@@ -1,0 +1,89 @@
+{
+  "name": "cli",
+  "description": "this is a vue cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack -w --config build/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svonme/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "svon.me@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svonme/cli/issues"
+  },
+  "homepage": "https://github.com/svonme/cli#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "last 10 Chrome versions",
+    "last 5 Firefox versions",
+    "Safari >= 6",
+    "ie > 8"
+  ],
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {},
+      "autoprefixer": {}
+    }
+  },
+  "eslintConfig": {
+    "extends": ".eslintrc.js"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/polyfill": "^7.10.4",
+    "@fengqiaogang/dblist": "0.2.3",
+    "@fengqiaogang/safe-get": "^0.1.1",
+    "@fengqiaogang/safe-set": "^0.1.2",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-preset-jsx": "^1.1.2",
+    "lodash": "^4.17.19",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4",
+    "@babel/plugin-transform-classes": "^7.10.4",
+    "@babel/plugin-transform-for-of": "^7.10.4",
+    "@babel/plugin-transform-spread": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.5.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.6.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.8",
+    "postcss-normalize": "^8.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-url": "^7.2.1",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^9.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "style-loader": "^0.23.1",
+    "vue-loader": "15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^4.2.1",
+    "ws": "^7.0.0"
+  }
+}
