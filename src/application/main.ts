@@ -4,15 +4,13 @@
  */
 
 import Vue from 'vue';
-import "../styles/main.scss";
-
+// import "../styles/main.scss";
+import Test from './test';
 
 function main() {
   new Vue({
     el: '#app',
-    components: { 
-      Test: () => import('./test')
-    }
+    components: { Test }
   })
 }
 
